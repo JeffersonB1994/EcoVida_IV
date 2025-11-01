@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoVida - Preservando o Amanhã</title>
+  <meta name="description" content="ONG dedicada à preservação ambiental, reflorestamento, reciclagem e educação ecológica.">
+  <link id="theme-style" rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/high-contrast.css" media="prefers-contrast: more">
+  <link rel="icon" href="img/floresta.min.jpg" type="image/jpeg">
+</head>
+<body>
+
+  <header role="banner">
+    <h1>EcoVida</h1>
+    <div class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+    <nav role="navigation" aria-label="Menu principal">
+      <ul id="navMenu">
+        <li><a href="#inicio" data-page="inicio" aria-current="page">Início</a></li>
+        <li><a href="#projetos" data-page="projetos">Projetos</a></li>
+        <li><a href="#cadastros" data-page="cadastros">Cadastros</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" role="main">
+    <!-- Conteúdo carregado dinamicamente -->
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 EcoVida - Todos os direitos reservados.</p>
+  </footer>
+
+  <button id="themeToggle" aria-label="Alternar tema" title="Alternar entre claro, escuro e alto contraste">
+    Moon
+  </button>
+  <script type="module" src="js/theme.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>S

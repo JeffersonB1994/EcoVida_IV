@@ -1,0 +1,7 @@
+body { background: #121212; color: #eee; }
+header { background: #1b5e20; }
+main { background: #1e1e1e; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+button { background: #4caf50; }
+a { color: #a5d6a7; }
+input, select { background: #333; color: #eee; border: 1px solid #555; }
+.error { color: #ef9a9a; }

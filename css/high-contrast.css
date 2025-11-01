@@ -1,0 +1,6 @@
+body, header, main, footer, button, input, select {
+  background: black !important;
+  color: yellow !important;
+  border: 2px solid yellow !important;
+}
+a { color: yellow !important; text-decoration: underline !important; }
