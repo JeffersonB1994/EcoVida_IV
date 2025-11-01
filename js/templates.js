@@ -1,5 +1,8 @@
 export const templates = {
-  inicio: () => import('../pages/inicio.html').then(m => m.default),
-  projetos: () => import('../pages/projetos.html').then(m => m.default),
-  cadastros: () => import('../pages/cadastros.html').then(m => m.default)
+  inicio: () => fetch('pages/inicio.html')
+    .then(r => r.ok ? r.text() : Promise.reject('Página não encontrada')),
+  projetos: () => fetch('pages/projetos.html')
+    .then(r => r.ok ? r.text() : Promise.reject('Página não encontrada')),
+  cadastros: () => fetch('pages/cadastros.html')
+    .then(r => r.ok ? r.text() : Promise.reject('Página não encontrada'))
 };
